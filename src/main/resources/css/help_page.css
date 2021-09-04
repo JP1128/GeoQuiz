@@ -1,0 +1,45 @@
+@font-face {
+    src: url('font/poppins_med.otf');
+}
+
+@font-face {
+    src: url('font/poppins_semi_bold.otf');
+}
+
+#help-page {
+    -fx-background-color: #34495e;
+    -fx-alignment: center;
+}
+
+#help-main-container {
+    -fx-background-color: WHITE;
+    -fx-background-radius: 10pt;
+}
+
+#button-container .jfx-button {
+    -fx-background-radius: 20pt;
+    -fx-alignment: center;
+}
+
+#placeholder {
+    -fx-alignment: top-center;
+}
+
+#placeholder-text {
+    -fx-text-family: 'Poppins Medium';
+    -fx-fill: #2c3e50;
+    -fx-font-size: 13pt;
+}
+
+#placeholder-image-box {
+    -fx-alignment: center;
+    -fx-background-radius: 10pt;
+}
+
+#close-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5pt;
+    -fx-text-family: 'Poppins SemiBold';
+    -fx-text-fill: WHITE;
+    -fx-font-size: 15pt;
+}

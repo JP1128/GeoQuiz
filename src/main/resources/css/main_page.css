@@ -1,0 +1,91 @@
+@font-face {
+    src: url('font/poppins_semi_bold.otf');
+}
+
+@font-face {
+    src: url('font/poppins_bold.otf');
+}
+
+@font-face {
+    src: url('font/poppins_med.otf');
+}
+
+@font-face {
+    src: url('font/poppins_light.otf');
+}
+
+#main-page {
+    -fx-background-color: #34495e;
+}
+
+#description-text {
+    -fx-fill: #7f8c8d;
+    -fx-font-size: 10pt;
+    -fx-font-family: 'Poppins Medium';
+}
+
+#description-box {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 5pt;
+}
+
+#display-vbox {
+    -fx-background-color: transparent;
+    -fx-spacing: 25;
+}
+
+#menu-vbox {
+    -fx-background-color: white;
+    -fx-background-radius: 10pt;
+}
+
+#menu-title-text {
+    -fx-fill: #2c3e50;
+    -fx-font-size: 30pt;
+    -fx-font-family: 'Poppins Bold';
+}
+
+#username-textfield {
+    -fx-background-color: #ecf0f1;
+    -fx-text-fill: BLACK;
+    -fx-prompt-text-fill: GRAY;
+    -fx-font-size: 14pt;
+    -fx-font-family: 'Poppins SemiBold';
+    -fx-alignment: center;
+}
+
+#username-textfield .error-label {
+    -fx-font-family: 'Poppins Light';
+    -fx-text-alignment: center;
+    -fx-font-size: 13pt;
+}
+
+#start-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5pt;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 20;
+    -fx-font-family: 'Poppins Bold';
+}
+
+#quit-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5pt;
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 20;
+    -fx-font-family: "Poppins Bold";
+}
+
+#report-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5pt;
+    -fx-background-radius: 3pt;
+    -fx-text-fill: #ecf0f1;
+}
+
+#help-button {
+    -fx-background-color: #3498db;
+    -fx-background-radius: 5pt;
+    -fx-background-radius: 3pt;
+    -fx-text-fill: #ecf0f1;
+}

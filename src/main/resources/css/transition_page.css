@@ -1,0 +1,30 @@
+@font-face {
+    src: url('font/poppins_med.otf');
+}
+
+#transition-page {
+    -fx-alignment: center;
+    -fx-background-color: #34495e;
+}
+
+#choose-text {
+    -fx-fill: WHITE;
+    -fx-font-family: "Poppins Medium";
+    -fx-font-size: 14pt;
+    -fx-text-alignment: center;
+}
+
+#number-textfield {
+    -fx-text-fill: #ecf0f1;
+    -fx-font-size: 13pt;
+    -fx-font-family: "Poppins Medium";
+    -fx-alignment: baseline-center;
+    -jfx-focus-color: #3498db;
+    -jfx-unfocus-color: #e74c3c;
+}
+
+#number-textfield .error-label {
+    -fx-font-family: 'Poppins Light';
+    -fx-text-alignment: center;
+    -fx-font-size: 13pt;
+}

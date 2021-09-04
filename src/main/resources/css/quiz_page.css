@@ -1,0 +1,150 @@
+@font-face {
+    src: url('font/poppins_bold.otf');
+}
+
+@font-face {
+    src: url('font/poppins_semi_bold.otf');
+}
+
+@font-face {
+    src: url('font/poppins_med.otf');
+}
+
+@font-face {
+    src: url('font/poppins_reg.otf');
+}
+
+#quiz-page {
+    -fx-alignment: center;
+}
+
+#question-container-vbox {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 20pt;
+    -fx-font-color: #3498db;
+    -fx-alignment: center;
+}
+
+#prompt-text {
+    -fx-text-alignment: center;
+    -fx-text-fill: #3498db;
+    -fx-font-size: 13pt;
+    -fx-font-family: "Poppins Medium";
+}
+
+#answer-button {
+    -fx-background-color: WHITE;
+    -fx-background-insets: 0;
+    -fx-background-radius: 30pt;
+
+    -fx-text-fill: #34495e;
+    -fx-font-family: "Poppins SemiBold";
+    -fx-font-size: 11pt;
+}
+
+#answer-button:armed, #answer-button:selected {
+    -fx-background-color: #2ecc71;
+    -fx-text-fill: #ecf0f1;
+}
+
+#next-button {
+    -fx-background-color: #f39c12;
+    -fx-background-radius: 5pt;
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Poppins SemiBold";
+    -fx-font-size: 12pt;
+}
+
+#next-button:armed {
+    -fx-background-color: #e67e22;
+}
+
+#finish-button {
+    -fx-background-color: #9b59b6;
+    -fx-background-radius: 5pt;
+    -fx-text-fill: WHITE;
+    -fx-font-family: "Poppins SemiBold";
+    -fx-font-size: 12pt;
+}
+
+#finish-button:selected {
+    -fx-background-color: #8e44ad;
+}
+
+#incorrect-box {
+    -fx-background-color: #e74c3c;
+    -fx-font-family: "Poppins Bold";
+    -fx-font-size: 25pt;
+    -fx-alignment: center;
+}
+
+#correct-box {
+    -fx-background-color: #2ecc71;
+    -fx-font-family: "Poppins Bold";
+    -fx-font-size: 25pt;
+    -fx-alignment: center;
+}
+
+#outcome-text {
+    -fx-fill: WHITE;
+}
+
+#incorrect-message {
+    -fx-fill: WHITE;
+    -fx-font-size: 20pt;
+}
+
+#progress-check-text {
+    -fx-fill: WHITE;
+    -fx-font-size: 15pt;
+}
+
+#progress-label {
+    -fx-font-family: "Poppins SemiBold";
+    -fx-text-fill: #2c3e50;
+}
+
+#error-tooltip {
+    -fx-background-color: #e74c3c;
+}
+
+#incorrect-bar > .bar {
+    -fx-background-color: #e74c3c99;
+}
+
+#correct-bar > .bar {
+    -fx-background-color: #2ecc7199;
+}
+
+#correct-bar > .secondary-bar {
+    -fx-background-color: #2ecc7159
+}
+
+#finish-box {
+    -fx-background-color: #9b59b6;
+}
+
+#finish-username-text {
+    -fx-font-family: "Poppins Bold";
+    -fx-fill: WHITE;
+    -fx-font-size: 30pt;
+}
+
+#finish-score-text {
+    -fx-font-family: "Poppins Bold";
+    -fx-fill: WHITE;
+    -fx-font-size: 20pt;
+}
+
+#finish-confirmation-text {
+    -fx-font-family: "Poppins SemiBold";
+    -fx-fill: GhostWhite;
+    -fx-font-size: 13pt;
+}
+
+#finish-close-button {
+    -fx-background-color: WHITE;
+    -fx-font-family: "Poppins SemiBold";
+    -fx-text-fill: #3498db;
+    -fx-font-size: 13pt;
+}

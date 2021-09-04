@@ -1,0 +1,33 @@
+#controls-container {
+    -fx-background-color: #2c3e50;
+}
+
+#logo-container {
+    -fx-background-color: #2c3e50;
+}
+
+#minimize-button .jfx-rippler {
+    -jfx-rippler-fill: #3498db;
+}
+
+#minimize-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#minimize-button:hover {
+    -fx-background-color: #3498db;
+}
+
+#close-button .jfx-rippler {
+    -jfx-rippler-fill: #e74c3c;
+}
+
+#close-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+#close-button:hover {
+    -fx-background-color: #e74c3c;
+}
