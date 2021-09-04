@@ -2,7 +2,7 @@
 
 ![Downloads](https://img.shields.io/badge/status-complete-green)
 
-Final project for the **CSCI 1301** - **Software Development** course at **University of Georgia**.
+Final project for the **CSCI 1302** - **Software Development** course at **University of Georgia**.
 
 This project is a **GUI JavaFX** application for a simple geography quiz. The user will be able to test they know what continents each countries are located in.
 
