@@ -4,7 +4,8 @@
 
 Final project for the **CSCI 1302** - **Software Development** course at **University of Georgia**.
 
-This project is a **GUI JavaFX** application for a simple geography quiz. The user will be able to test they know what continents each countries are located in.
+This project is a **GUI JavaFX** application for a simple geography quiz. 
+The user will be able to test how well they know the location of the countries.
 
 ## Demonstration
 
