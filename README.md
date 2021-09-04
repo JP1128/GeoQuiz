@@ -14,9 +14,9 @@ The user will be able to test how well they know the location of the countries.
 
 This is the main interface you will see when you start up the application. 
 There are several options that the user can choose, including:
-- Click on ![Help](src/main/resources/icons/help.png) button to view help page.
-- Click on ![Report](src/main/resources/icons/report.png) button to view the [previous game reports](#GeoQuiz-Report-Page).
-- Provide your username in the username field above the `START` button and click `START` button to start the GeoQuiz.
+- Clicking on ![Help](src/main/resources/icons/help.png) button to view help page.
+- Clicking on ![Report](src/main/resources/icons/report.png) button to view the [previous game reports](#GeoQuiz-Report-Page).
+- Providing your username in the username field above the `START` button and clicking `START` button to start the GeoQuiz.
 
 ### GeoQuiz Input Page
 ![Input](img/input.png)
